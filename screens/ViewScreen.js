@@ -40,10 +40,10 @@ export default function ViewScreen() {
 			let value = JSON.parse(store[i][1]);
 
 			animatedValues[`${key}`] = new Animated.Value(0);
-			return { key, text: `${value.name} (${value.quantity})`};
+			return { key, text: `${value.name} (${value.quantity})` };
 		});
 
-		if(newListData.length > 0){
+		if (newListData.length > 0) {
 			setRowSwipeAnimatedValues(animatedValues);
 			setListData(newListData);
 		}

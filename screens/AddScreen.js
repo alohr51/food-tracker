@@ -16,11 +16,11 @@ export default function App() {
 		})();
 	}, []);
 
-		getBarcodeData = async barcode => {
+	getBarcodeData = async barcode => {
 		let endpoint = `${BASE_BARCODE_API}/${barcode}.json`;
 		let response = await fetch(endpoint);
 		let barcodeJSON = await response.json();
-		if(barcodeJSON.status === 0){
+		if (barcodeJSON.status === 0) {
 			console.log(barcodeJSON)
 			alert(`${barcode} returned no data`);
 			return;
