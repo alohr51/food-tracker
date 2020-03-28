@@ -16,14 +16,14 @@ Track the food your have in your home with this mobile app. This application use
 * Barcode scanning
    * Allows you to quickly add food to a list by scanning the barcode on food packaging using your phones camera.
 
-## Run
+## How to Run
 
 This app is not available on any app store, but you can run it using expo. 
 
 ### Prerequisites
 * [Install Expo](https://docs.expo.io/versions/v36.0.0/get-started/installation)
 
-
+### Run
 1. Inside this projects root directory run: `npm start`. This will also open the Expo GUI in your browser, take note of the QR code in the bottom left corner.
 1. On your mobile device, connect to the same wireless network as your computer.
 1. Scan the QR code from the first step.
